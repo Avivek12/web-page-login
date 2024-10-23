@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel = "stylesheet" href = "style.css" />
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-row ">
+        <div>
+            <form class="text-center">
+                <label class="label-element" for="firstName">First Name:</label> <br />
+                <input class="input-element" id="firstName" type="text" placeholder="Enter your first name" /><br />
+                <p id="errMsgFirstName"></p>
+
+                <label class="label-element" for="lastName">Last Name:</label> <br />
+                <input class="input-element" id="lastName" type="text" placeholder="Enter your Last name" /><br />
+                <p id="errMsgLastName"></p>
+
+                <label class="label-element" for="emailAdd">Email:</label> <br />
+                <input class="input-element" id="emailAdd" type="email" placeholder="Enter your Email" /> <br />
+                <p id="errMsgEmail"></p>
+
+                <label class="label-element" for="passwordId">Password:</label> <br />
+                <input class="input-element" id="passwordId" type="password" placeholder="Enter your Email" /><br />
+                <p id="errMsgPassword"></p>
+
+
+                <label class="label-element" for="mobileNumber">Mobile_Nmber:</label> <br />
+                <input class="input-element" id="mobileNumber" type="password" placeholder="Enter your Mobile Number" /><br />
+                <p id="errMsgMobileNumber"></p>
+            </form>
+            <div>
+                <button class="button" id="submitBtn">Submit </button>
+            </div>
+        </div>
+
+        <div class="user-data-container text-center" id="userDetails">
+        </div>
+
+    </div>
+
+   
+    <script src = "script.js"></script>
+</body>
+
+</html>
